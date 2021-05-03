@@ -1,8 +1,11 @@
 # BattleRoyal
 * Minecraft Datapack for BattleRoyal
 
+## Feature
 
-# Recipes
+### Custom Recipes
+(I was inspired by Hypixel UHC)
+
 * Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
     * air, redstone_block, air
     * air, iron_sword, air
@@ -32,3 +35,12 @@
     * iron_ingot, iron_ingot, iron_ingot
     * air, iron_block, air
     * iron_ingot, iron_ingot, iron_ingot
+
+* God Apple (1x enchanted_golden_apple)
+    * gold_block, gold_block, gold_block
+    * gold_block, apple, gold_block
+    * gold_block, gold_block, gold_block
+
+* Obsidian (1x obsidian, No Max Limit)
+    * water_bucket, lava_bucket
+    * buckets will be recived back
