@@ -1,5 +1,5 @@
 # BattleRoyal
-Minecraft Datapack for BattleRoyal
+* Minecraft Datapack for BattleRoyal
 
 
 # Recipes
