@@ -55,6 +55,7 @@ scoreboard players set Arrow_Economy ct.Max 4
 scoreboard players set Iron_Pack ct.Max 3
 scoreboard players set Gold_Pack ct.Max 3
 scoreboard players set Light_Anvil ct.Max 1
+scoreboard players set Objective ct.Max 4
 
 scoreboard objectives add ct.Ap_Helmet dummy
 scoreboard objectives add ct.Ap_Sword dummy
@@ -62,6 +63,7 @@ scoreboard objectives add ct.Arrow_Economy dummy
 scoreboard objectives add ct.Iron_Pack dummy
 scoreboard objectives add ct.Gold_Pack dummy
 scoreboard objectives add ct.Light_Anvil dummy
+scoreboard objectives add ct.Obsidian dummy
 
 scoreboard players reset @a
 

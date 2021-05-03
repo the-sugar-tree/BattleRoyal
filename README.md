@@ -51,7 +51,7 @@
     * gold_block, apple, gold_block
     * gold_block, gold_block, gold_block
 
-* Obsidian (1x obsidian, No Max Limit)
+* Obsidian (1x obsidian, Max 4)
     * water_bucket, lava_bucket
     * buckets will be recived back
 

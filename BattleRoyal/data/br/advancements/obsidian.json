@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:obsidian"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/obsidian"
+    }
+}
