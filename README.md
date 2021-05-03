@@ -46,7 +46,7 @@
     * air, iron_block, air
     * iron_ingot, iron_ingot, iron_ingot
 
-* God Apple (1x enchanted_golden_apple)
+* God Apple (1x enchanted_golden_apple, No Max Limit)
     * gold_block, gold_block, gold_block
     * gold_block, apple, gold_block
     * gold_block, gold_block, gold_block
