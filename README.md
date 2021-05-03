@@ -1,10 +1,10 @@
-# BattleRoyal
-* Minecraft Datapack for BattleRoyal
+# BattleRoyal / 배틀로얄
+**[Minecraft Datapack for BattleRoyal]**
 
-## Feature
+## Feature / 기능
 
-### Custom Recipes
-(I was inspired by Hypixel UHC)
+### Custom Recipes / 커스텀 레시피
+(I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다.)
 
 * Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
     * air, redstone_block, air
@@ -44,3 +44,7 @@
 * Obsidian (1x obsidian, No Max Limit)
     * water_bucket, lava_bucket
     * buckets will be recived back
+
+## License / 라이센스
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/the-sugar-tree/BattleRoyal/blob/master/LICENSE) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE 파일을 참고하세요.
