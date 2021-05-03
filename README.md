@@ -1,10 +1,20 @@
 # BattleRoyal / 배틀로얄
 **[Minecraft Datapack for BattleRoyal]**
 
+```
+한가지만 알면 됩니다! 마지막까지 살아 남아 승리하세요!
+```
+
+## Getting Started / 설치 방법
+
+```
+죄송합니다. 아직은 개발중입니다.
+```
+
 ## Feature / 기능
 
 ### Custom Recipes / 커스텀 레시피
-(I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다.)
+(I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다)
 
 * Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
     * air, redstone_block, air
