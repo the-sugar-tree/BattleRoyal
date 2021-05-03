@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:arrow_economy"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/arrow_economy"
+    }
+}

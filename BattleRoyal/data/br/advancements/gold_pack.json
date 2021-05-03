@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:gold_pack"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/gold_pack"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:iron_pack"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/iron_pack"
+    }
+}
