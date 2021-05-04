@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:grindstone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/grindstone"
+    }
+}

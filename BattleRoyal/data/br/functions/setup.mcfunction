@@ -56,6 +56,7 @@ scoreboard players set iron_pack ct.Max 3
 scoreboard players set gold_pack ct.Max 3
 scoreboard players set light_anvil ct.Max 1
 scoreboard players set obsidian ct.Max 4
+scoreboard players set grindstone ct.Max 1
 
 scoreboard objectives add ct.ap_helmet dummy
 scoreboard objectives add ct.ap_sword dummy
@@ -64,6 +65,7 @@ scoreboard objectives add ct.iron_pack dummy
 scoreboard objectives add ct.gold_pack dummy
 scoreboard objectives add ct.light_anvil dummy
 scoreboard objectives add ct.obsidian dummy
+scoreboard objectives add ct.grindstone dummy
 
 scoreboard players reset @a
 
