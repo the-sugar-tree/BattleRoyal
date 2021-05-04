@@ -36,10 +36,10 @@ scoreboard players set GameEnd BattleRoyal 0
 scoreboard players set Emergency BattleRoyal 0
 
 scoreboard players set -1 BattleRoyal -1
+scoreboard players set 1 BattleRoyal 1
+scoreboard players set 2 BattleRoyal 2
 scoreboard players set 20 BattleRoyal 20
 scoreboard players set 60 BattleRoyal 60
-scoreboard players set 2 BattleRoyal 2
-scoreboard players set 1 BattleRoyal 1
 
 worldborder set 1000 0
 worldborder damage buffer 0
@@ -55,8 +55,8 @@ scoreboard players set arrow_economy ct.Max 4
 scoreboard players set iron_pack ct.Max 3
 scoreboard players set gold_pack ct.Max 3
 scoreboard players set light_anvil ct.Max 1
-scoreboard players set obsidian ct.Max 4
 scoreboard players set grindstone ct.Max 1
+scoreboard players set obsidian ct.Max 4
 
 scoreboard objectives add ct.ap_helmet dummy
 scoreboard objectives add ct.ap_sword dummy
