@@ -13,7 +13,6 @@ scoreboard objectives modify Health rendertype integer
 scoreboard objectives setdisplay belowName Health
 scoreboard objectives setdisplay list Health
 scoreboard objectives add GameStart trigger
-scoreboard players enable @a GameStart
 bossbar add info "정보"
 team add NoFight
 team modify NoFight friendlyFire false
@@ -57,6 +56,8 @@ scoreboard players set gold_pack ct.Max 3
 scoreboard players set light_anvil ct.Max 1
 scoreboard players set grindstone ct.Max 1
 scoreboard players set obsidian ct.Max 4
+scoreboard players set quick_pick ct.Max 3
+scoreboard players set philo_pickaxe ct.Max 2
 
 scoreboard objectives add ct.ap_helmet dummy
 scoreboard objectives add ct.ap_sword dummy
@@ -66,7 +67,10 @@ scoreboard objectives add ct.gold_pack dummy
 scoreboard objectives add ct.light_anvil dummy
 scoreboard objectives add ct.obsidian dummy
 scoreboard objectives add ct.grindstone dummy
+scoreboard objectives add ct.quick_pick dummy
+scoreboard objectives add ct.philo_pickaxe dummy
 
 scoreboard players reset @a
 
 execute as @a store result score @s Health run data get entity @s Health
+scoreboard players enable @a GameStart

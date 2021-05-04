@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:quick_pick"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/quick_pick"
+    }
+}

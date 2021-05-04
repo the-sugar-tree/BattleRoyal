@@ -19,16 +19,17 @@
 (I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다)
 
 * Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
-    * air, redstone_block, air
-    * air, iron_sword, air
-    * air, redston_block, air
+    * redstone_block
+    * iron_sword
+    * redston_block
+
     * CustomModelData: 1
 
 * Apprentice Helmet(1x iron_helmet{Protection I, Fire Protection I, Blast Protection I, Projectile Protection I}, Max 1)
     * iron_ingot, iron_ingot, iron_ingot
     * iron_ingot, redstone_torch, iron_ingot
-    * air, air, air
-    * CustomModelData: 2
+
+    * CustomModelData: 1
 
 * Arrow Economy (20x arrow, Max 4)
     * flint, flint, flint
@@ -51,9 +52,7 @@
     * iron_ingot, iron_ingot, iron_ingot
 
 * Light Grindstone (1x grindstone, Max 1)
-    * air, air, air
     * stick, smooth_stone, stick
-    * air, air, air
 
 * God Apple (1x enchanted_golden_apple, No Max Limit)
     * gold_block, gold_block, gold_block
@@ -62,7 +61,23 @@
 
 * Obsidian (1x obsidian, Max 4)
     * water_bucket, lava_bucket
+
     * buckets will be recived back
+
+* Quick Pick (1x iron_pickaxe{efficiency I}, Max 3)
+    * iron_ore, iron_ore, iron_ore
+    * coal, stick, coal
+    * air, stick, air
+
+    * CustomModelData: 1
+
+* Philosopher's Pickaxe (1x diamond_pickaxe{fortune II}, durability: 2, Max 2)
+    * iron_ore, gold_ore, iron_ore
+    * lapis_block, stick, lapis_block
+    * air, stick, air
+
+    * CustomModelData: 1
+
 
 ## License / 라이센스
 

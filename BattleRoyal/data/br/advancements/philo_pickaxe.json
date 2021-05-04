@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:philo_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/philo_pickaxe"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "C/C",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ore"
+        },
+        "C": {
+            "item": "minecraft:coal"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

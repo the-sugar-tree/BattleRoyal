@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "L/L",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ore"
+        },
+        "G": {
+            "item": "minecraft:gold_ore"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
