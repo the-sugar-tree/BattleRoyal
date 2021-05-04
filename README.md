@@ -71,13 +71,39 @@
 
     * CustomModelData: 1
 
-* Philosopher's Pickaxe (1x diamond_pickaxe{fortune II}, durability: 2, Max 2)
+* Philosopher's Pickaxe (1x diamond_pickaxe{Fortune II}, durability: 2, Max 2)
     * iron_ore, gold_ore, iron_ore
     * lapis_block, stick, lapis_block
     * air, stick, air
 
     * CustomModelData: 1
 
+* Seven-league Boots (1x diamond_boots{Protection III, Feather Falling III}, Max 1)
+    * feather, ender_pearl, feather
+    * feather, diamond_boots, feather
+    * feather, water_bucket, feather
+
+    * CustomModelData: 1
+
+* Protection Book (1x enchanted_book{Protection I}, Max 4)
+    * paper, paper, paper, iron_ingot
+
+    * CustomModelData: 1
+
+* Sharpness Book (1x enchanted_book{Sharpness I}, Max 4)
+    * paper, paper, paper, flint, iron_sword
+
+    * CustomModelData: 1
+
+* Sugar Rush (4x sugar_cane, Max 4)
+    * air, oak_sapling, air
+    * wheat_seeds, sugar, wheat_seeds
+
+* Tarnhelm (1x diamond_helmet{Protection I, Fire Protection I, Aqua Affinity III}, Max 1)
+    * diamond, iron_ingot, diamond
+    * diamond, redstone_block, diamond
+    
+    * CustomModelData: 1
 
 ## License / 라이센스
 

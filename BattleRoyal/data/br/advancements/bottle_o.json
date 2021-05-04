@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:bottle_o"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/bottle_o"
+    }
+}

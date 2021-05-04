@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "#D#",
+        "#W#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "D": {
+            "item": "minecraft:diamond_boots"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

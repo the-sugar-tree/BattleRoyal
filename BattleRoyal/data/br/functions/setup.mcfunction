@@ -47,7 +47,7 @@ worldborder warning distance 30
 tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"클릭하여 게임시작","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart set 1"}}]
 
 scoreboard objectives add ct.testing dummy
-scoreboard objectives add ct.Max dummy
+scoreboard objectives add ct.Max dummy ["[",{"text": "Max Crafting Limit", "color": "green"},"]"]
 scoreboard players set ap_helmet ct.Max 1
 scoreboard players set ap_sword ct.Max 1
 scoreboard players set arrow_economy ct.Max 4
@@ -58,6 +58,12 @@ scoreboard players set grindstone ct.Max 1
 scoreboard players set obsidian ct.Max 4
 scoreboard players set quick_pick ct.Max 3
 scoreboard players set philo_pickaxe ct.Max 2
+scoreboard players set prot_book ct.Max 4
+scoreboard players set sharp_book ct.Max 4
+scoreboard players set bottle_o ct.Max 3
+scoreboard players set seven_boots ct.Max 1
+scoreboard players set sugar_rush ct.Max 3
+scoreboard players set tarnhelm ct.Max 1
 
 scoreboard objectives add ct.ap_helmet dummy
 scoreboard objectives add ct.ap_sword dummy
@@ -69,6 +75,12 @@ scoreboard objectives add ct.obsidian dummy
 scoreboard objectives add ct.grindstone dummy
 scoreboard objectives add ct.quick_pick dummy
 scoreboard objectives add ct.philo_pickaxe dummy
+scoreboard objectives add ct.prot_book dummy
+scoreboard objectives add ct.sharp_book dummy
+scoreboard objectives add ct.bottle_o dummy
+scoreboard objectives add ct.seven_boots dummy
+scoreboard objectives add ct.sugar_rush dummy
+scoreboard objectives add ct.tarnhelm dummy
 
 scoreboard players reset @a
 

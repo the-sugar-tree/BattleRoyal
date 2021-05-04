@@ -10,6 +10,7 @@ execute if score Players BattleRoyal matches 1 run bossbar set minecraft:winner 
 execute if score Players BattleRoyal matches 1 run bossbar set minecraft:winner value 1
 execute if score Players BattleRoyal matches 1 run bossbar set minecraft:winner max 1
 execute if score Players BattleRoyal matches 1 run bossbar set minecraft:winner players @a
+execute if score Players BattleRoyal matches 1 run bossbar set minecraft:info players
 execute if score Players BattleRoyal matches 1 run scoreboard players reset @a DeathCount
 execute if score Players BattleRoyal matches 0..1 run function br:stop
 execute if score Players BattleRoyal matches 0 run tellraw @a ["",{"text":"[Battle Royal] ","color":"green"},{"text":"동시에 마지막 두명이 사망한 것으로 보입니다...","color":"red"}]

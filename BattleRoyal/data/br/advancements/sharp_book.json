@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:sharp_book"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:items/sharp_book"
+    }
+}
