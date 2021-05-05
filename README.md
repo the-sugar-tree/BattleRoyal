@@ -19,90 +19,90 @@
 (I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다)
 
 * Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
-    * redstone_block
-    * iron_sword
-    * redston_block
+>    * redstone_block
+>    * iron_sword
+>    * redston_block
 
     * CustomModelData: 1
 
 * Apprentice Helmet(1x iron_helmet{Protection I, Fire Protection I, Blast Protection I, Projectile Protection I}, Max 1)
-    * iron_ingot, iron_ingot, iron_ingot
-    * iron_ingot, redstone_torch, iron_ingot
+>    * iron_ingot, iron_ingot, iron_ingot
+>    * iron_ingot, redstone_torch, iron_ingot
 
     * CustomModelData: 1
 
 * Arrow Economy (20x arrow, Max 4)
-    * flint, flint, flint
-    * stick, stick, stick
-    * feather, feather, feather
+>    * flint, flint, flint
+>    * stick, stick, stick
+>    * feather, feather, feather
 
 * Iron Pack (10x iron_ingot, Max 3)
-    * iron_ore, iron_ore, iron_ore
-    * iron_ore, coal, iron_ore
-    * iron_ore, iron_ore, iron_ore
+>    * iron_ore, iron_ore, iron_ore
+>    * iron_ore, coal, iron_ore
+>    * iron_ore, iron_ore, iron_ore
 
 * Gold Pack (10x gold_ingot, Max 3)
-    * gold_ore, gold_ore, gold_ore
-    * gold_ore, coal, gold_ore
-    * gold_ore, gold_ore, gold_ore
+>    * gold_ore, gold_ore, gold_ore
+>    * gold_ore, coal, gold_ore
+>    * gold_ore, gold_ore, gold_ore
 
 * Light Anvil (1x anvil, Max 1)
-    * iron_ingot, iron_ingot, iron_ingot
-    * air, iron_block, air
-    * iron_ingot, iron_ingot, iron_ingot
+>    * iron_ingot, iron_ingot, iron_ingot
+>    * air, iron_block, air
+>    * iron_ingot, iron_ingot, iron_ingot
 
 * Light Grindstone (1x grindstone, Max 1)
-    * stick, smooth_stone, stick
+>    * stick, smooth_stone, stick
 
 * God Apple (1x enchanted_golden_apple, No Max Limit)
-    * gold_block, gold_block, gold_block
-    * gold_block, apple, gold_block
-    * gold_block, gold_block, gold_block
+>    * gold_block, gold_block, gold_block
+>    * gold_block, apple, gold_block
+>    * gold_block, gold_block, gold_block
 
 * Obsidian (1x obsidian, Max 4)
-    * water_bucket, lava_bucket
+>    * water_bucket, lava_bucket
 
     * buckets will be recived back
 
 * Quick Pick (1x iron_pickaxe{efficiency I}, Max 3)
-    * iron_ore, iron_ore, iron_ore
-    * coal, stick, coal
-    * air, stick, air
+>    * iron_ore, iron_ore, iron_ore
+>    * coal, stick, coal
+>    * air, stick, air
 
     * CustomModelData: 1
 
 * Philosopher's Pickaxe (1x diamond_pickaxe{Fortune II}, durability: 2, Max 2)
-    * iron_ore, gold_ore, iron_ore
-    * lapis_block, stick, lapis_block
-    * air, stick, air
+>    * iron_ore, gold_ore, iron_ore
+>    * lapis_block, stick, lapis_block
+>    * air, stick, air
 
     * CustomModelData: 1
 
 * Seven-league Boots (1x diamond_boots{Protection III, Feather Falling III}, Max 1)
-    * feather, ender_pearl, feather
-    * feather, diamond_boots, feather
-    * feather, water_bucket, feather
+>    * feather, ender_pearl, feather
+>    * feather, diamond_boots, feather
+>    * feather, water_bucket, feather
 
     * CustomModelData: 1
 
 * Protection Book (1x enchanted_book{Protection I}, Max 4)
-    * paper, paper, paper, iron_ingot
-
+>    * paper, paper, paper, iron_ingot
+>
     * CustomModelData: 1
 
 * Sharpness Book (1x enchanted_book{Sharpness I}, Max 4)
-    * paper, paper, paper, flint, iron_sword
+>    * paper, paper, paper, flint, iron_sword
 
     * CustomModelData: 1
 
 * Sugar Rush (4x sugar_cane, Max 4)
-    * air, oak_sapling, air
-    * wheat_seeds, sugar, wheat_seeds
+>    * air, oak_sapling, air
+>    * wheat_seeds, sugar, wheat_seeds
 
 * Tarnhelm (1x diamond_helmet{Protection I, Fire Protection I, Aqua Affinity III}, Max 1)
-    * diamond, iron_ingot, diamond
-    * diamond, redstone_block, diamond
-    
+>    * diamond, iron_ingot, diamond
+>    * diamond, redstone_block, diamond
+
     * CustomModelData: 1
 
 ## License / 라이센스
