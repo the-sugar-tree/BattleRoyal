@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/seven_boots"
+        "function": "br:recipe_items/seven_boots"
     }
 }

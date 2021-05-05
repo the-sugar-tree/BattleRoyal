@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/apprentice_helmet"
+        "function": "br:recipe_items/apprentice_helmet"
     }
 }

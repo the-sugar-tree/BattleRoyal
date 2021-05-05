@@ -4,7 +4,7 @@ execute unless score @s ct.bottle_o > bottle_o ct.Max run scoreboard players add
 execute if score @s ct.bottle_o > bottle_o ct.Max run tellraw @s {"text":"제작한도를 초과했습니다!","color":"red"}
 execute store result score @s ct.testing if score @s ct.bottle_o > bottle_o ct.Max run clear @s experience_bottle 10
 execute if score @s ct.bottle_o > bottle_o ct.Max if score @s ct.testing matches ..9 run tag @s add item_kill
-execute if score @s ct.bottle_o > bottle_o ct.Max if score @s ct.testing matches ..9 run function br:items/bottle_o_r
+execute if score @s ct.bottle_o > bottle_o ct.Max if score @s ct.testing matches ..9 run function br:recipe_items/bottle_o_r
 execute if score @s ct.bottle_o > bottle_o ct.Max run give @s minecraft:redstone_block 4
 execute if score @s ct.bottle_o > bottle_o ct.Max run give @s minecraft:glass_bottle 1
 

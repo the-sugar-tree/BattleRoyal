@@ -4,7 +4,7 @@ execute unless score @s ct.sugar_rush > sugar_rush ct.Max run scoreboard players
 execute if score @s ct.sugar_rush > sugar_rush ct.Max run tellraw @s {"text":"제작한도를 초과했습니다!","color":"red"}
 execute store result score @s ct.testing if score @s ct.sugar_rush > sugar_rush ct.Max run clear @s sugar_cane 4
 execute if score @s ct.sugar_rush > sugar_rush ct.Max if score @s ct.testing matches ..3 run tag @s add item_kill
-execute if score @s ct.sugar_rush > sugar_rush ct.Max if score @s ct.testing matches ..3 run function br:items/sugar_rush_r
+execute if score @s ct.sugar_rush > sugar_rush ct.Max if score @s ct.testing matches ..3 run function br:recipe_items/sugar_rush_r
 execute if score @s ct.sugar_rush > sugar_rush ct.Max run give @s minecraft:wheat_seeds 2
 execute if score @s ct.sugar_rush > sugar_rush ct.Max run give @s minecraft:oak_sapling 1
 execute if score @s ct.sugar_rush > sugar_rush ct.Max run give @s minecraft:sugar 1

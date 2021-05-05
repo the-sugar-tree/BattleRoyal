@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/sharp_book"
+        "function": "br:recipe_items/sharp_book"
     }
 }

@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/philo_pickaxe"
+        "function": "br:recipe_items/philo_pickaxe"
     }
 }

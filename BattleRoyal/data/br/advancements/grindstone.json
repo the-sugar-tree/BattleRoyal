@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/grindstone"
+        "function": "br:recipe_items/grindstone"
     }
 }

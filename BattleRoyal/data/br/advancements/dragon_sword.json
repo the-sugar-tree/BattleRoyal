@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:quick_pick"
+                "recipe": "br:dragon_sword"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/quick_pick"
+        "function": "br:recipe_items/dragon_sword"
     }
 }

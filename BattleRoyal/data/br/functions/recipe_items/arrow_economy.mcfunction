@@ -4,7 +4,7 @@ execute unless score @s ct.arrow_economy > arrow_economy ct.Max run scoreboard p
 execute if score @s ct.arrow_economy > arrow_economy ct.Max run tellraw @s {"text":"제작한도를 초과했습니다!","color":"red"}
 execute store result score @s ct.testing if score @s ct.arrow_economy > arrow_economy ct.Max run clear @s arrow 20
 execute if score @s ct.arrow_economy > arrow_economy ct.Max if score @s ct.testing matches ..19 run tag @s add item_kill
-execute if score @s ct.arrow_economy > arrow_economy ct.Max if score @s ct.testing matches ..19 run function br:items/arrow_economy_r
+execute if score @s ct.arrow_economy > arrow_economy ct.Max if score @s ct.testing matches ..19 run function br:recipe_items/arrow_economy_r
 execute if score @s ct.arrow_economy > arrow_economy ct.Max run give @s minecraft:stick 3
 execute if score @s ct.arrow_economy > arrow_economy ct.Max run give @s minecraft:feather 3
 execute if score @s ct.arrow_economy > arrow_economy ct.Max run give @s minecraft:flint 3

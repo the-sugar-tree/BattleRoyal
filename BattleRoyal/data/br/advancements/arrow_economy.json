@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/arrow_economy"
+        "function": "br:recipe_items/arrow_economy"
     }
 }

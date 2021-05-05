@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/sugar_rush"
+        "function": "br:recipe_items/sugar_rush"
     }
 }

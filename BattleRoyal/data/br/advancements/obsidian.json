@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/obsidian"
+        "function": "br:recipe_items/obsidian"
     }
 }

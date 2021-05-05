@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/iron_pack"
+        "function": "br:recipe_items/iron_pack"
     }
 }

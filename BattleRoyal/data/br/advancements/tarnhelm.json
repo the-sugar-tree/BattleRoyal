@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/tarnhelm"
+        "function": "br:recipe_items/tarnhelm"
     }
 }

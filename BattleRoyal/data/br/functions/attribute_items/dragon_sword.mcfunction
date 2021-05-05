@@ -1,0 +1,2 @@
+execute as @a if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword", tag:{DragonSword:1b}}}] unless entity @s[nbt={Attributes:[{Name:"minecraft:generic.attack_damage", Base: 2.0d}]}] run attribute @s generic.attack_damage base set 2.0
+execute as @a unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword", tag:{DragonSword:1b}}}] if entity @s[nbt={Attributes:[{Name:"minecraft:generic.attack_damage", Base: 2.0d}]}] run attribute @s generic.attack_damage base set 1.0

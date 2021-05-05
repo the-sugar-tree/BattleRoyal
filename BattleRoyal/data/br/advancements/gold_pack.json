@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/gold_pack"
+        "function": "br:recipe_items/gold_pack"
     }
 }

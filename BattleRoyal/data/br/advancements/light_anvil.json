@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "br:items/light_anvil"
+        "function": "br:recipe_items/light_anvil"
     }
 }
