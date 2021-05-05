@@ -13,6 +13,7 @@ scoreboard objectives modify Health rendertype integer
 scoreboard objectives setdisplay belowName Health
 scoreboard objectives setdisplay list Health
 scoreboard objectives add GameStart trigger
+scoreboard objectives add RANDOM dummy
 bossbar add info "정보"
 team add NoFight
 team modify NoFight friendlyFire false

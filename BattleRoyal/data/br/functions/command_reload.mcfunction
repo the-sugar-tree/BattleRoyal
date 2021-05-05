@@ -5,3 +5,7 @@ execute if score Fight BattleRoyal matches 1 run function br:fight
 execute if score BlueZone BattleRoyal matches 1 run function br:bluezone
 execute if score Emergency BattleRoyal matches 1 run function br:emergency
 function br:items/item_kill
+
+function br:spawn_blaze_zp
+function br:spawn_blaze_sk
+function br:spawn_blaze_p
