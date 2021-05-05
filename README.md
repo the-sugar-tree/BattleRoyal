@@ -21,14 +21,14 @@
 ### Custom Recipes / 커스텀 레시피
 (I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다)
 
-* Apprentice Sword(1x iron_sword{Sharpness II}, Max 1)
+* Trained Sword(1x iron_sword{Sharpness II}, Max 1)
 >    * redstone_block
 >    * iron_sword
 >    * redston_block
 
 >    * CustomModelData: 1
 
-* Apprentice Helmet(1x iron_helmet{Protection I, Unbreaking I}, Max 1)
+* Trained Helmet(1x iron_helmet{Protection I, Unbreaking I}, Max 1)
 >    * iron_ingot, iron_ingot, iron_ingot
 >    * iron_ingot, redstone_torch, iron_ingot
 

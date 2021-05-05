@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:apprentice_sword"
+                "recipe": "br:trained_sword"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/apprentice_sword"
+        "function": "br:recipe_items/trained_sword"
     }
 }

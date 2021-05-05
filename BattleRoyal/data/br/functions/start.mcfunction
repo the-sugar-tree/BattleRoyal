@@ -9,8 +9,8 @@ team join NoFight @a
 tag @a add Player
 tag @a remove Spec
 
-tag @a remove Apprentice_Helmet
-tag @a remove Apprentice_Sword
+tag @a remove trained_helmet
+tag @a remove trained_sword
 
 advancement revoke @a everything
 recipe take @a *

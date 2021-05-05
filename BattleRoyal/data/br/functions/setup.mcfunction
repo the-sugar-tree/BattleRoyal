@@ -23,8 +23,8 @@ execute in minecraft:overworld run gamerule announceAdvancements false
 execute in minecraft:the_nether run gamerule announceAdvancements false
 tag @a remove Player
 tag @a remove Spec
-tag @a remove Apprentice_Helmet
-tag @a remove Apprentice_Sword
+tag @a remove trained_helmet
+tag @a remove trained_sword
 effect clear @a
 
 advancement revoke @a everything
@@ -49,8 +49,8 @@ tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!"
 
 scoreboard objectives add ct.testing dummy
 scoreboard objectives add ct.Max dummy ["[",{"text": "Max Crafting Limit", "color": "green"},"]"]
-scoreboard players set ap_helmet ct.Max 1
-scoreboard players set ap_sword ct.Max 1
+scoreboard players set tr_helmet ct.Max 1
+scoreboard players set tr_sword ct.Max 1
 scoreboard players set arrow_economy ct.Max 4
 scoreboard players set iron_pack ct.Max 3
 scoreboard players set gold_pack ct.Max 3
@@ -65,8 +65,8 @@ scoreboard players set bottle_o ct.Max 3
 scoreboard players set sugar_rush ct.Max 3
 scoreboard players set dragon_sword ct.Max 1
 
-scoreboard objectives add ct.ap_helmet dummy
-scoreboard objectives add ct.ap_sword dummy
+scoreboard objectives add ct.tr_helmet dummy
+scoreboard objectives add ct.tr_sword dummy
 scoreboard objectives add ct.arrow_economy dummy
 scoreboard objectives add ct.iron_pack dummy
 scoreboard objectives add ct.gold_pack dummy
