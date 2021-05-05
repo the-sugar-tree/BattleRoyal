@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:sugar_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:recipe_items/sugar_sword"
+    }
+}

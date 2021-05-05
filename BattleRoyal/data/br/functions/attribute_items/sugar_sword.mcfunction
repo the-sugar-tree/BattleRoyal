@@ -1,0 +1,1 @@
+execute as @a if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword", tag:{SugarSword:1b}}}] run effect give @s speed 1 0 true

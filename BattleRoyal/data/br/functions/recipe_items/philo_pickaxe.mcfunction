@@ -8,7 +8,7 @@ execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraf
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:lapis_block 2
 
 
-execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:diamond_pickaxe{display:{Name:'{"text":"Philosopher\'s Pickaxe","color":"green"}',Lore:['{"text":"모루 사용 불가능"}']},RepairCost:300,Damage:1559,CustomModelData:1,Enchantments:[{id:"minecraft:fortune",lvl:2s}]} 1
+execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:diamond_pickaxe{display:{Name:'{"text":"Philosopher\'s Pickaxe","color":"green","italic": false}',Lore:['{"text":"모루 사용 불가능"}']},RepairCost:300,Damage:1559,CustomModelData:1,Enchantments:[{id:"minecraft:fortune",lvl:2s}]} 1
 execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max run tellraw @s [{"text":"Philosopher's Pickaxe","color":"green"},{"text":"을(를) 제작했습니다! (","color":"yellow"},{"score":{"name":"@s","objective": "ct.philo_pickaxe"}},{"text":"/","color":"yellow"},{"score":{"name": "philo_pickaxe","objective": "ct.Max"}},{"text":")","color":"yellow"}]
 execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max at @s run playsound entity.arrow.hit_player master @s ~ ~ ~
 

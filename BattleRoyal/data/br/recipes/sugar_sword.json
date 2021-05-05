@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "#D#",
+        "O/O"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

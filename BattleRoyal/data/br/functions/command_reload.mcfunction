@@ -9,4 +9,4 @@ function br:recipe_items/item_kill
 function br:spawn_blaze_zp
 function br:spawn_blaze_sk
 function br:spawn_blaze_p
-function br:attribute_items/dragon_sword
+function br:attribute_items/load

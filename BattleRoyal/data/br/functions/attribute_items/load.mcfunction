@@ -1,0 +1,2 @@
+function br:attribute_items/dragon_sword
+function br:attribute_items/sugar_sword

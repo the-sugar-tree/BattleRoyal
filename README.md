@@ -80,13 +80,6 @@
 
 >    * CustomModelData: 1
 
-* Seven-league Boots (1x diamond_boots{Protection III, Feather Falling III}, Max 1)
->    * feather, ender_pearl, feather
->    * feather, diamond_boots, feather
->    * feather, water_bucket, feather
-
->    * CustomModelData: 1
-
 * Protection Book (1x enchanted_book{Protection I}, Max 4)
 >    * paper, paper, paper, iron_ingot
 >
@@ -101,18 +94,19 @@
 >    * air, oak_sapling, air
 >    * wheat_seeds, sugar, wheat_seeds
 
-* Tarnhelm (1x diamond_helmet{Aqua Affinity, Protection I, Unbreaking I}, Max 1)
->    * diamond, iron_ingot, diamond
->    * diamond, redstone_block, diamond
-
->    * CustomModelData: 1
-
 * Dragon Sword (1x diamond_sword{Damage +1}, Max 1)
 >    * air, blaze_powder, air
 >    * air, diamond_sword, air
 >    * obsidian, blaze_powder, obsidian
 
 >    * CustomModelData: 1
+
+* sugar_tree's Sword (1x diamond_sword{Speed I}, Max 1)
+>    * sugar, diamond, sugar
+>    * sugar, diamond, sugar
+>    * obsidian, stick, obsidian
+
+>    * CustomModelData: 2
 
 ## License / 라이센스
 
