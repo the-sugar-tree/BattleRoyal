@@ -2,7 +2,7 @@ scoreboard players set BlueZoneMax BattleRoyal 2400
 execute if score Phase BattleRoyal matches 5 run scoreboard players set BlueZoneMax BattleRoyal 1200
 scoreboard players operation BlueZoneTick BattleRoyal = BlueZoneMax BattleRoyal
 execute store result bossbar minecraft:info max run scoreboard players get BlueZoneMax BattleRoyal
-execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 100
+execute as @a at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 100
 title @a title {"text":"자기장이 줄어들고 있습니다!","color":"dark_red"}
 execute if score Phase BattleRoyal matches 1 run worldborder set 800 120
 execute if score Phase BattleRoyal matches 2 run worldborder set 600 120
