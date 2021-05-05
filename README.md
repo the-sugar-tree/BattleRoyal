@@ -14,6 +14,8 @@
 ## Feature / 기능
 
 * Every leaves have 5% chance to drop 'apple', It works at using any tools / 모든 잎에서 사과가 등장 할 확률이 5%입니다. 가위로 캐도 똑같이 작동됩니다.
+* Blaze can naturlly spawn (it has chance to replace mob(zombiefied_piglin, piglin, skeleton (only nether)))
+* Blaze has 100% chance to drop blaze_rod
 
 ### Custom Recipes / 커스텀 레시피
 (I was inspired by [Hypixel](https://hypixel.net/) UHC / Hypixel UHC에서 영감을 받았습니다)
