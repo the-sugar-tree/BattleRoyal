@@ -62,9 +62,7 @@ scoreboard players set philo_pickaxe ct.Max 2
 scoreboard players set prot_book ct.Max 4
 scoreboard players set sharp_book ct.Max 4
 scoreboard players set bottle_o ct.Max 3
-scoreboard players set seven_boots ct.Max 1
 scoreboard players set sugar_rush ct.Max 3
-scoreboard players set tarnhelm ct.Max 1
 scoreboard players set dragon_sword ct.Max 1
 
 scoreboard objectives add ct.ap_helmet dummy
@@ -80,9 +78,7 @@ scoreboard objectives add ct.philo_pickaxe dummy
 scoreboard objectives add ct.prot_book dummy
 scoreboard objectives add ct.sharp_book dummy
 scoreboard objectives add ct.bottle_o dummy
-scoreboard objectives add ct.seven_boots dummy
 scoreboard objectives add ct.sugar_rush dummy
-scoreboard objectives add ct.tarnhelm dummy
 scoreboard objectives add ct.dragon_sword dummy
 
 scoreboard players reset @a
