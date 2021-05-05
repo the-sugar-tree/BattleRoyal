@@ -6,7 +6,7 @@ execute if score @s ct.tarnhelm > tarnhelm ct.Max run give @s minecraft:diamond 
 execute if score @s ct.tarnhelm > tarnhelm ct.Max run give @s minecraft:iron_ingot 1
 execute if score @s ct.tarnhelm > tarnhelm ct.Max run give @s minecraft:redstone_block 1
 
-execute unless score @s ct.tarnhelm > tarnhelm ct.Max run give @s minecraft:diamond_helmet{display:{Name:'{"text":"Tarnhelm","color":"green"}'},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:fire_protection",lvl:1s},{id:"minecraft:aqua_affinity",lvl:3s}],CustomModelData:1} 1
+execute unless score @s ct.tarnhelm > tarnhelm ct.Max run give @s minecraft:diamond_helmet{display:{Name:'{"text":"Tarnhelm","color":"green"}'},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:aqua_affinity",lvl:1s}],CustomModelData:1} 1
 execute unless score @s ct.tarnhelm > tarnhelm ct.Max run tellraw @s [{"text":"Tarnhelm","color":"green"},{"text":"을(를) 제작했습니다! (","color":"yellow"},{"score":{"name":"@s","objective": "ct.tarnhelm"}},{"text":"/","color":"yellow"},{"score":{"name": "tarnhelm","objective": "ct.Max"}},{"text":")","color":"yellow"}]
 execute unless score @s ct.tarnhelm > tarnhelm ct.Max at @s run playsound entity.arrow.hit_player master @s ~ ~ ~
 

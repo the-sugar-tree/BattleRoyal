@@ -25,7 +25,7 @@
 
 >    * CustomModelData: 1
 
-* Apprentice Helmet(1x iron_helmet{Protection I, Fire Protection I, Blast Protection I, Projectile Protection I}, Max 1)
+* Apprentice Helmet(1x iron_helmet{Protection I, Unbreaking I}, Max 1)
 >    * iron_ingot, iron_ingot, iron_ingot
 >    * iron_ingot, redstone_torch, iron_ingot
 
@@ -99,7 +99,7 @@
 >    * air, oak_sapling, air
 >    * wheat_seeds, sugar, wheat_seeds
 
-* Tarnhelm (1x diamond_helmet{Protection I, Fire Protection I, Aqua Affinity III}, Max 1)
+* Tarnhelm (1x diamond_helmet{Aqua Affinity, Protection I, Unbreaking I}, Max 1)
 >    * diamond, iron_ingot, diamond
 >    * diamond, redstone_block, diamond
 
