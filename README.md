@@ -104,7 +104,7 @@
 * sugar_tree's Sword (1x iron_sword{Speed I}, Max 1)
 >    * sugar, iron_block, sugar
 >    * sugar, iron_block, sugar
->    * obsidian, stick, obsidian
+>    * obsidian, blaze_rod, obsidian
 
 >    * CustomModelData: 2
 
