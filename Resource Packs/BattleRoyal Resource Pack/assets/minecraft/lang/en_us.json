@@ -1,7 +1,7 @@
 {
 	"item.minecraft.knowledge_book": "?",
 
-	"You haven't applied resource pack yet! Please get resource pack": "§aIf you can see this message, your resource pack is working well",
+	"You haven't applied resource pack yet! Please get resource pack": "§aIf you can see this message, your resource pack is working well!",
 	
 	"br.item.arrow_economy": "§aArrow Economy",
 	"br.item.bottle_o": "§aBottle o' Enchanting",
@@ -19,14 +19,14 @@
 	"br.item.sugar_sword": "§4sugar_tree§a's Sword",
 	"br.item.tr_helmet": "§aTrained Helmet",
 	"br.item.tr_sword": "§aTrained Sword",
-
 	"br.recipe.crafted": "§eYou have crafted the §a%s§e!",
 	"br.recipe.failed": "§cYou have already crafted the maximum amount available for this recipe",
 
 	"br.bluezone.leftplayer": "§eLeft Player(s): §a%d§9Player(s)",
 	"br.bluezone.currentdistance": "§eBluezone: §a%d§9blocks",
-	"br.emergency.standby": "§aYou can use &r[&cEmergency Leave&r]",
-	"br.emergency.jump": "[&cEmergency Leave&r]",
+
+	"br.emergency.standby": "§aYou can use §r[§cEmergency Leave§f]",
+	"br.emergency.jump": "[§cEmergency Leave§f]",
 	"br.game.win": "§a%s win!",
 	"br.game.died": "§c%s died",
 	"br.game.pleft": "§c%d player(s) left."

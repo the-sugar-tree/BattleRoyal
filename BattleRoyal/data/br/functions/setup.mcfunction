@@ -1,5 +1,6 @@
 #gamerule sendCommandFeedback false
 tellraw @a ["",{"text":"[Battle Royal] ","color":"green"},{"text":"Preparing...","color":"yellow"}]
+tellraw @a [{"translate":"You haven't applied resource pack yet! Please get resource pack"}]
 scoreboard objectives add BattleRoyal dummy
 scoreboard objectives add DeathCount deathCount
 scoreboard objectives add Health health {"text":"HP","color":"red"}

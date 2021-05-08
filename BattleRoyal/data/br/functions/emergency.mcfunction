@@ -9,7 +9,7 @@ effect give @a minecraft:night_vision 999999 1 true
 execute as @a store result score @s Xpos run data get entity @s Pos[0] 1
 execute as @a store result score @s Zpos run data get entity @s Pos[2] 1
 execute as @a if score @s Xpos matches ..0 run scoreboard players operation @s Xpos *= -1 BattleRoyal
-execute as @a if score @s Ypos matches ..0 run scoreboard players operation @s Zpos *= -1 BattleRoyal
+execute as @a if score @s Zpos matches ..0 run scoreboard players operation @s Zpos *= -1 BattleRoyal
 scoreboard players reset @a[tag=!dying] SneakTime
 execute as @a[tag=dying] unless score @s Zpos > distanceBlueZone BattleRoyal unless score @s Xpos > distanceBlueZone BattleRoyal run tag @s remove dying
 execute as @a if score @s Xpos > distanceBlueZone BattleRoyal run tag @s add dying
@@ -17,11 +17,11 @@ execute as @a if score @s Zpos > distanceBlueZone BattleRoyal run tag @s add dyi
 scoreboard players add @a[tag=Player,tag=dying] CompareSneakTime 1
 execute as @a[tag=Player,tag=dying] unless score @s CompareSneakTime = @s SneakTime run scoreboard players reset @s CompareSneakTime
 execute as @a[tag=Player,tag=dying] unless score @s CompareSneakTime = @s SneakTime run scoreboard players reset @s SneakTime
-execute as @a[tag=Player,tag=dying] if score @s CompareSneakTime = @s SneakTime if score @s SneakTime matches 100.. run title @s actionbar {"text":"비상 탈출 사용 가능!","color":"green","bold":true}
+execute as @a[tag=Player,tag=dying] if score @s CompareSneakTime = @s SneakTime if score @s SneakTime matches 100.. run title @s actionbar {"translate":"br.emergency.standby","bold":true}
 execute as @a[tag=Player,tag=dying] unless score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run scoreboard players reset @s SneakTime
 execute as @a[tag=Player,tag=dying] unless score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run scoreboard players reset @s JumpCount
 execute as @a[tag=Player,tag=dying] at @s if score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run spreadplayers ~ ~ 0 1 false @s
-execute as @a[tag=Player,tag=dying] if score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run tellraw @s "비상탈출!"
+execute as @a[tag=Player,tag=dying] if score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run tellraw @s {"translate":"br.emergency.jump"}
 execute as @a[tag=Player,tag=dying] at @s if score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run playsound minecraft:entity.player.attack.sweep master @s ~ ~ ~ 100
 execute as @a[tag=Player,tag=dying] if score @s SneakTime matches 100.. if score @s JumpCount matches 1.. run scoreboard players reset @s SneakTime
 execute as @a if score @s MoveWithSneak matches 1.. run scoreboard players reset @s SneakTime
