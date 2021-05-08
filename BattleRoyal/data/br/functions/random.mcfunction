@@ -1,1 +1,0 @@
-execute store result score @s RANDOM run loot spawn ~ -300 ~ loot br:random_1r10
