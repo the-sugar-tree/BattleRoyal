@@ -1,4 +1,4 @@
-execute in minecraft:the_nether as @e[type=skeleton,tag=!n] if predicate br:blaze_random at @s run summon armor_stand ~ ~ ~ {Tags:["Blaze-sk"],Invisible:1b, Invulnerable:1b}
+execute as @e[type=skeleton,tag=!n] at @s if predicate br:blaze_random run summon armor_stand ~ ~ ~ {Tags:["Blaze-sk"],Invisible:1b, Invulnerable:1b}
 execute as @e[tag=Blaze-sk] run function br:random
 execute as @e[tag=Blaze-sk,scores={RANDOM=1..2}] at @s run tag @s add y
 execute as @e[tag=Blaze-sk] at @s run scoreboard players reset @s RANDOM
