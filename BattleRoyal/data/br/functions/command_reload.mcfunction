@@ -10,3 +10,5 @@ function br:spawn_blaze_zp
 function br:spawn_blaze_sk
 function br:spawn_blaze_p
 function br:attribute_items/load
+
+scoreboard players reset @a[scores={ct.testing2=1}] ct.testing2

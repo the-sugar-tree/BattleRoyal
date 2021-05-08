@@ -48,6 +48,7 @@ worldborder warning distance 30
 tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"클릭하여 게임시작","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart set 1"}}]
 
 scoreboard objectives add ct.testing dummy
+scoreboard objectives add ct.testing2 dummy
 scoreboard objectives add ct.Max dummy ["[",{"text": "Max Crafting Limit", "color": "green"},"]"]
 scoreboard players set tr_helmet ct.Max 1
 scoreboard players set tr_sword ct.Max 1

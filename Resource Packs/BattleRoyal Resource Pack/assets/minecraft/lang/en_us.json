@@ -1,0 +1,33 @@
+{
+	"item.minecraft.knowledge_book": "?",
+
+	"You haven't applied resource pack yet! Please get resource pack": "§aIf you can see this message, your resource pack is working well",
+	
+	"br.item.arrow_economy": "§aArrow Economy",
+	"br.item.bottle_o": "§aBottle o' Enchanting",
+	"br.item.dragon_sword": "§aDragon Sword",
+	"br.item.gold_pack": "§aGold Pack",
+	"br.item.grindstone": "§aLight Grindstone",
+	"br.item.iron_pack": "§aIron Pack",
+	"br.item.light_anvil": "§aLight Anvil",
+	"br.item.obsidian": "§aObsidian",
+	"br.item.philo_pickaxe": "§aPhilosopher's Pickaxe",
+	"br.item.prot_book": "§aProtection Book",
+	"br.item.quick_pick": "§aQuick Pickaxe",
+	"br.item.sharp_book": "§aSharpness Book",
+	"br.item.sugar_rush": "§aSugar Rush",
+	"br.item.sugar_sword": "§4sugar_tree§a's Sword",
+	"br.item.tr_helmet": "§aTrained Helmet",
+	"br.item.tr_sword": "§aTrained Sword",
+
+	"br.recipe.crafted": "§eYou have crafted the §a%s§e!",
+	"br.recipe.failed": "§cYou have already crafted the maximum amount available for this recipe",
+
+	"br.bluezone.leftplayer": "§eLeft Player(s): §a%d§9Player(s)",
+	"br.bluezone.currentdistance": "§eBluezone: §a%d§9blocks",
+	"br.emergency.standby": "§aYou can use &r[&cEmergency Leave&r]",
+	"br.emergency.jump": "[&cEmergency Leave&r]",
+	"br.game.win": "§a%s win!",
+	"br.game.died": "§c%s died",
+	"br.game.pleft": "§c%d player(s) left."
+}
