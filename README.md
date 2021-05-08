@@ -101,9 +101,9 @@
 
 >    * CustomModelData: 1
 
-* sugar_tree's Sword (1x diamond_sword{Speed I}, Max 1)
->    * sugar, diamond, sugar
->    * sugar, diamond, sugar
+* sugar_tree's Sword (1x iron_sword{Speed I}, Max 1)
+>    * sugar, iron_block, sugar
+>    * sugar, iron_block, sugar
 >    * obsidian, stick, obsidian
 
 >    * CustomModelData: 2
