@@ -1,7 +1,7 @@
 execute store result score distanceBlueZone BattleRoyal run worldborder get
 scoreboard players operation distanceBlueZone BattleRoyal /= 2 BattleRoyal
-execute as @a[tag=Player] unless score @s SneakTime matches 100.. run title @s actionbar [{"text":"남은사람: ","color":"yellow"},{"score":{"name":"Players","objective":"BattleRoyal"},"color":"gold"},{"text":"명","color":"blue"},{"text":" 현재 자기장: "},{"score":{"name":"distanceBlueZone","objective":"BattleRoyal"},"color":"green"},{"text":"블록","color":"blue"}]
-title @a[tag=!Player] actionbar [{"text":"남은사람: ","color":"yellow"},{"score":{"name":"Players","objective":"BattleRoyal"},"color":"gold"},{"text":"명","color":"blue"},{"text":" 현재 자기장: "},{"score":{"name":"distanceBlueZone","objective":"BattleRoyal"},"color":"green"},{"text":"블록","color":"blue"}]
+execute as @a[tag=Player] unless score @s SneakTime matches 100.. run title @s actionbar [{"translate":"br.bluezone.info","with":[{"score":{"name":"Players","objective":"BattleRoyal"},"color":"gold"},{"score":{"name":"distanceBlueZone","objective":"BattleRoyal"},"color":"gold"}]}]
+title @a[tag=!Player] actionbar [{"translate":"br.bluezone.info","with":[{"score":{"name":"Players","objective":"BattleRoyal"},"color":"gold"},{"score":{"name":"distanceBlueZone","objective":"BattleRoyal"},"color":"gold"}]}]
 bossbar set minecraft:info players @a
 effect give @a minecraft:night_vision 999999 1 true
 

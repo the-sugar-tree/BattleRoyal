@@ -1,6 +1,6 @@
 #gamerule sendCommandFeedback false
 tellraw @a ["",{"text":"[Battle Royal] ","color":"green"},{"text":"Preparing...","color":"yellow"}]
-tellraw @a [{"translate":"You haven't applied resource pack yet! Please get resource pack"}]
+tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"translate":"You haven't applied resource pack yet! Please get resource pack"}]
 scoreboard objectives add BattleRoyal dummy
 scoreboard objectives add DeathCount deathCount
 scoreboard objectives add Health health {"text":"HP","color":"red"}
@@ -46,7 +46,7 @@ worldborder set 1000 0
 worldborder damage buffer 0
 worldborder warning time 120
 worldborder warning distance 30
-tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"클릭하여 게임시작","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart set 1"}}]
+tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"click!","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart set 1"}}]
 
 scoreboard objectives add ct.testing dummy
 scoreboard objectives add ct.testing2 dummy

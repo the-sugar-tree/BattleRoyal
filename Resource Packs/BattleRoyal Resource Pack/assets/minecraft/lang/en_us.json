@@ -16,18 +16,21 @@
 	"br.item.quick_pick": "§aQuick Pickaxe",
 	"br.item.sharp_book": "§aSharpness Book",
 	"br.item.sugar_rush": "§aSugar Rush",
-	"br.item.sugar_sword": "§4sugar_tree§a's Sword",
+	"br.item.sugar_sword": "§bsugar_tree§a's Sword",
 	"br.item.tr_helmet": "§aTrained Helmet",
 	"br.item.tr_sword": "§aTrained Sword",
 	"br.recipe.crafted": "§eYou have crafted the §a%s§e!",
 	"br.recipe.failed": "§cYou have already crafted the maximum amount available for this recipe",
 
-	"br.bluezone.leftplayer": "§eLeft Player(s): §a%d§9Player(s)",
-	"br.bluezone.currentdistance": "§eBluezone: §a%d§9blocks",
+	"br.bluezone.info": "§eLeft Players: §9[§6%s§9] §eBluezone distance: §9[§6%s §ablocks§9]",
 
 	"br.emergency.standby": "§aYou can use §r[§cEmergency Leave§f]",
 	"br.emergency.jump": "[§cEmergency Leave§f]",
 	"br.game.win": "§a%s win!",
-	"br.game.died": "§c%s died",
-	"br.game.pleft": "§c%d player(s) left."
+	"br.game.winner": "§6Winner: §b%s",
+	"br.game.died": "§f\u262c§c>§f> §c%s died. §f<§c<§f<",
+	"br.game.pleft": "§f>§c>§f> §c%s player(s) left. §f<§c<§f<",
+	"br.game.last": "§a> \u2756 §bYou are the last survivor §a\u2756 <",
+	"br.game.cong": "§6\u2756 §eCongratulations!!! §6\u2756",
+	"br.game.alldead": "§c All players died. No Winner!"
 }
