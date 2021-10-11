@@ -73,7 +73,7 @@
 
 >    * CustomModelData: 1
 
-* Philosopher's Pickaxe (1x diamond_pickaxe{Fortune II}, durability: 2, Max 2)
+* Philosopher's Pickaxe (1x diamond_pickaxe{Fortune II}, durability: 3, Max 2)
 >    * iron_ore, gold_ore, iron_ore
 >    * lapis_block, stick, lapis_block
 >    * air, stick, air
