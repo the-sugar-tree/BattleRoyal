@@ -50,6 +50,7 @@ tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!"
 scoreboard objectives add ct.testing dummy
 scoreboard objectives add ct.testing2 dummy
 scoreboard objectives add ct.Max dummy ["[",{"text": "Max Crafting Limit", "color": "green"},"]"]
+
 scoreboard players set tr_helmet ct.Max 1
 scoreboard players set tr_sword ct.Max 1
 scoreboard players set arrow_economy ct.Max 4
