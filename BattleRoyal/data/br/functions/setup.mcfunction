@@ -54,8 +54,8 @@ scoreboard objectives add ct.Max dummy ["[",{"text": "Max Crafting Limit", "colo
 scoreboard players set tr_helmet ct.Max 1
 scoreboard players set tr_sword ct.Max 1
 scoreboard players set arrow_economy ct.Max 4
-scoreboard players set iron_pack ct.Max 3
-scoreboard players set gold_pack ct.Max 3
+scoreboard players set iron_pack ct.Max 4
+scoreboard players set gold_pack ct.Max 4
 scoreboard players set light_anvil ct.Max 1
 scoreboard players set grindstone ct.Max 1
 scoreboard players set obsidian ct.Max 4
