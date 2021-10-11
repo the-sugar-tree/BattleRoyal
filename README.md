@@ -38,12 +38,12 @@
 >    * stick, stick, stick
 >    * feather, feather, feather
 
-* Iron Pack (10x iron_ingot, Max 3)
+* Iron Pack (10x iron_ingot, Max 4)
 >    * iron_ore, iron_ore, iron_ore
 >    * iron_ore, coal, iron_ore
 >    * iron_ore, iron_ore, iron_ore
 
-* Gold Pack (10x gold_ingot, Max 3)
+* Gold Pack (10x gold_ingot, Max 4)
 >    * gold_ore, gold_ore, gold_ore
 >    * gold_ore, coal, gold_ore
 >    * gold_ore, gold_ore, gold_ore
