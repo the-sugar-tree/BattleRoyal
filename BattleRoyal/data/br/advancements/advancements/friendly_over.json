@@ -1,13 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "The First"
+            "text": "There are enemies",
+            "color": "red"
         },
         "description": {
-            "text": "GAME START!"
+            "text": "warm up time OVER!"
         },
         "icon": {
-            "item": "minecraft:oak_log"
+            "item": "minecraft:iron_sword"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "br:advancements/root"
+    "parent": "br:advancements/start"
 }

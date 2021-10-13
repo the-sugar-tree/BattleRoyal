@@ -41,3 +41,5 @@ scoreboard players set Phase BattleRoyal 1
 scoreboard players set NoFight BattleRoyal 1
 scoreboard players set GameEnd BattleRoyal 1
 scoreboard players set Emergency BattleRoyal 1
+
+advancement grant @a until br:advancements/start

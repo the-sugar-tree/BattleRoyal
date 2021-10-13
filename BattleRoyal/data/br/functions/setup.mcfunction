@@ -19,8 +19,8 @@ team add NoFight
 team modify NoFight friendlyFire false
 execute in minecraft:overworld run gamerule doImmediateRespawn true
 execute in minecraft:the_nether run gamerule doImmediateRespawn true
-execute in minecraft:overworld run gamerule announceAdvancements false
-execute in minecraft:the_nether run gamerule announceAdvancements false
+#execute in minecraft:overworld run gamerule announceAdvancements false
+#execute in minecraft:the_nether run gamerule announceAdvancements false
 tag @a remove Player
 tag @a remove Spec
 tag @a remove trained_helmet
