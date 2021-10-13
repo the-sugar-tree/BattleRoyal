@@ -1,4 +1,5 @@
 team leave @a
+advancement grant @a until br:advancements/friendly_over
 execute as @a at @s unless score Phase BattleRoyal matches 2.. run playsound minecraft:entity.ender_dragon.growl master @s ~ ~ ~
 
 execute if score Phase BattleRoyal matches 6 run function br:onlyfight
