@@ -9,5 +9,6 @@
     },
     "rewards": {
         "function": "br:recipe_items/grindstone"
-    }
+    },
+    "parent": "br:recipes/root"
 }

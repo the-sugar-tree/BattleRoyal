@@ -1,5 +1,5 @@
 recipe take @s br:trained_helmet
-advancement revoke @s only br:trained_helmet
+advancement revoke @s only br:recipes/trained_helmet
 execute unless score @s ct.tr_helmet > tr_helmet ct.Max run scoreboard players add @s ct.tr_helmet 1
 execute if score @s ct.tr_helmet > tr_helmet ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.tr_helmet > tr_helmet ct.Max run scoreboard players set @s ct.testing2 1

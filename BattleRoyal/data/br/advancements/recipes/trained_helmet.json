@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:gold_pack"
+                "recipe": "br:trained_helmet"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/gold_pack"
-    }
+        "function": "br:recipe_items/trained_helmet"
+    },
+    "parent": "br:recipes/root"
 }

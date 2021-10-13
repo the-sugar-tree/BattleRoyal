@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:prot_book"
+                "recipe": "br:light_anvil"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/prot_book"
-    }
+        "function": "br:recipe_items/light_anvil"
+    },
+    "parent": "br:recipes/root"
 }

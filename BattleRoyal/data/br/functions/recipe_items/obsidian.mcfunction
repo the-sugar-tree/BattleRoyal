@@ -1,5 +1,5 @@
 recipe take @s br:obsidian
-advancement revoke @s only br:obsidian
+advancement revoke @s only br:recipes/obsidian
 execute unless score @s ct.obsidian > obsidian ct.Max run scoreboard players add @s ct.obsidian 1
 execute if score @s ct.obsidian > obsidian ct.Max run tellraw @s {"text":"제작한도를 초과했습니다! 물과 용암은 돌려받지 못합니다!","color":"red"}
 execute store result score @s ct.testing if score @s ct.obsidian > obsidian ct.Max run clear @s obsidian 1

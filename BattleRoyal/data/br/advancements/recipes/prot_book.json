@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:sugar_sword"
+                "recipe": "br:prot_book"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/sugar_sword"
-    }
+        "function": "br:recipe_items/prot_book"
+    },
+    "parent": "br:recipes/root"
 }

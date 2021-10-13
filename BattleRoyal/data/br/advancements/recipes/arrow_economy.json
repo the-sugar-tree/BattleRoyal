@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:bottle_o"
+                "recipe": "br:arrow_economy"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/bottle_o"
-    }
+        "function": "br:recipe_items/arrow_economy"
+    },
+    "parent": "br:recipes/root"
 }

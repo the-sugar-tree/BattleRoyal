@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:obsidian"
+                "recipe": "br:sugar_rush"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/obsidian"
-    }
+        "function": "br:recipe_items/sugar_rush"
+    },
+    "parent": "br:recipes/root"
 }

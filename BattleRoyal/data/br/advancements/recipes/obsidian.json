@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:iron_pack"
+                "recipe": "br:obsidian"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/iron_pack"
-    }
+        "function": "br:recipe_items/obsidian"
+    },
+    "parent": "br:recipes/root"
 }

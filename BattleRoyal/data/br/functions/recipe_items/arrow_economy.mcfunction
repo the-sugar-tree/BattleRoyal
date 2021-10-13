@@ -1,5 +1,5 @@
 recipe take @s br:arrow_economy
-advancement revoke @s only br:arrow_economy
+advancement revoke @s only br:recipes/arrow_economy
 execute unless score @s ct.arrow_economy > arrow_economy ct.Max run scoreboard players add @s ct.arrow_economy 1
 execute if score @s ct.arrow_economy > arrow_economy ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.arrow_economy > arrow_economy ct.Max run scoreboard players set @s ct.testing2 1

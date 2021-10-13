@@ -9,5 +9,6 @@
     },
     "rewards": {
         "function": "br:recipe_items/dragon_sword"
-    }
+    },
+    "parent": "br:recipes/root"
 }

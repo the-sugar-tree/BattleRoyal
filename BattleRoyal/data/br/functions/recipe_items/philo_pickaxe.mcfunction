@@ -1,5 +1,5 @@
 recipe take @s br:philo_pickaxe
-advancement revoke @s only br:philo_pickaxe
+advancement revoke @s only br:recipes/philo_pickaxe
 execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max run scoreboard players add @s ct.philo_pickaxe 1
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run scoreboard players set @s ct.testing2 1

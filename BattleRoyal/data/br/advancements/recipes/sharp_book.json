@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:philo_pickaxe"
+                "recipe": "br:sharp_book"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/philo_pickaxe"
-    }
+        "function": "br:recipe_items/sharp_book"
+    },
+    "parent": "br:recipes/root"
 }

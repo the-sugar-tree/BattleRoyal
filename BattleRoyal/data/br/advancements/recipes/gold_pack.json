@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:quick_pick"
+                "recipe": "br:gold_pack"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/quick_pick"
-    }
+        "function": "br:recipe_items/gold_pack"
+    },
+    "parent": "br:recipes/root"
 }

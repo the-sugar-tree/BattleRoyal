@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:trained_helmet"
+                "recipe": "br:quick_pick"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/trained_helmet"
-    }
+        "function": "br:recipe_items/quick_pick"
+    },
+    "parent": "br:recipes/root"
 }

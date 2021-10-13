@@ -1,5 +1,5 @@
 recipe take @s br:prot_book
-advancement revoke @s only br:prot_book
+advancement revoke @s only br:recipes/prot_book
 execute unless score @s ct.prot_book > prot_book ct.Max run scoreboard players add @s ct.prot_book 1
 execute if score @s ct.prot_book > prot_book ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.prot_book > prot_book ct.Max run scoreboard players set @s ct.testing2 1

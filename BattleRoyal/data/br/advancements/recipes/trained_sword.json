@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:arrow_economy"
+                "recipe": "br:trained_sword"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/arrow_economy"
-    }
+        "function": "br:recipe_items/trained_sword"
+    },
+    "parent": "br:recipes/root"
 }

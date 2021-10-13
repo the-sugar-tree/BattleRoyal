@@ -1,5 +1,5 @@
 recipe take @s br:light_anvil
-advancement revoke @s only br:light_anvil
+advancement revoke @s only br:recipes/light_anvil
 execute unless score @s ct.light_anvil > light_anvil ct.Max run scoreboard players add @s ct.light_anvil 1
 execute if score @s ct.light_anvil > light_anvil ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.light_anvil > light_anvil ct.Max run scoreboard players set @s ct.testing2 1

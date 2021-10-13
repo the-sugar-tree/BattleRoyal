@@ -1,5 +1,5 @@
 recipe take @s br:iron_pack
-advancement revoke @s only br:iron_pack
+advancement revoke @s only br:recipes/iron_pack
 execute unless score @s ct.iron_pack > iron_pack ct.Max run scoreboard players add @s ct.iron_pack 1
 execute if score @s ct.iron_pack > iron_pack ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.iron_pack > iron_pack ct.Max run scoreboard players set @s ct.testing2 1

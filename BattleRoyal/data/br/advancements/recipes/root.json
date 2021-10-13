@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

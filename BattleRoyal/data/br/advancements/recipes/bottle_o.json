@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:sharp_book"
+                "recipe": "br:bottle_o"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/sharp_book"
-    }
+        "function": "br:recipe_items/bottle_o"
+    },
+    "parent": "br:recipes/root"
 }

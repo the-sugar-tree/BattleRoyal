@@ -1,5 +1,5 @@
 recipe take @s br:grindstone
-advancement revoke @s only br:grindstone
+advancement revoke @s only br:recipes/grindstone
 execute unless score @s ct.grindstone > grindstone ct.Max run scoreboard players add @s ct.grindstone 1
 execute if score @s ct.grindstone > grindstone ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.grindstone > grindstone ct.Max run scoreboard players set @s ct.testing2 1

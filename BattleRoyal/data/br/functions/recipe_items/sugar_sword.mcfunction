@@ -1,5 +1,5 @@
 recipe take @s br:sugar_sword
-advancement revoke @s only br:sugar_sword
+advancement revoke @s only br:recipes/sugar_sword
 execute unless score @s ct.sugar_sword > sugar_sword ct.Max run scoreboard players add @s ct.sugar_sword 1
 execute if score @s ct.sugar_sword > sugar_sword ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.sugar_sword > sugar_sword ct.Max run scoreboard players set @s ct.testing2 1

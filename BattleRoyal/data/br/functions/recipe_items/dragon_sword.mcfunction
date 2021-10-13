@@ -1,5 +1,5 @@
 recipe take @s br:dragon_sword
-advancement revoke @s only br:dragon_sword
+advancement revoke @s only br:recipes/dragon_sword
 execute unless score @s ct.dragon_sword > dragon_sword ct.Max run scoreboard players add @s ct.dragon_sword 1
 execute if score @s ct.dragon_sword > dragon_sword ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.dragon_sword > dragon_sword ct.Max run scoreboard players set @s ct.testing2 1

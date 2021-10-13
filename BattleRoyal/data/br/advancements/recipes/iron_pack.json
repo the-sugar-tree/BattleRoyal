@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:trained_sword"
+                "recipe": "br:iron_pack"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/trained_sword"
-    }
+        "function": "br:recipe_items/iron_pack"
+    },
+    "parent": "br:recipes/root"
 }

@@ -3,11 +3,12 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "br:light_anvil"
+                "recipe": "br:philo_pickaxe"
             }
         }
     },
     "rewards": {
-        "function": "br:recipe_items/light_anvil"
-    }
+        "function": "br:recipe_items/philo_pickaxe"
+    },
+    "parent": "br:recipes/root"
 }
