@@ -39,14 +39,14 @@
 >    * feather, feather, feather
 
 * Iron Pack (10x iron_ingot, Max 4)
->    * iron_ore, iron_ore, iron_ore
->    * iron_ore, coal, iron_ore
->    * iron_ore, iron_ore, iron_ore
+>    * raw_iron, raw_iron, raw_iron
+>    * raw_iron, coal, raw_iron
+>    * raw_iron, raw_iron, raw_iron
 
 * Gold Pack (10x gold_ingot, Max 4)
->    * gold_ore, gold_ore, gold_ore
->    * gold_ore, coal, gold_ore
->    * gold_ore, gold_ore, gold_ore
+>    * raw_gold, raw_gold, raw_gold
+>    * raw_gold, coal, raw_gold
+>    * raw_gold, raw_gold, raw_gold
 
 * Light Anvil (1x anvil, Max 1)
 >    * iron_ingot, iron_ingot, iron_ingot
@@ -67,14 +67,14 @@
 >    * buckets will be recived back
 
 * Quick Pick (1x iron_pickaxe{efficiency I}, Max 3)
->    * iron_ore, iron_ore, iron_ore
+>    * raw_iron, raw_iron, raw_iron
 >    * coal, stick, coal
 >    * air, stick, air
 
 >    * CustomModelData: 1
 
 * Philosopher's Pickaxe (1x diamond_pickaxe{Fortune II}, durability: 3, Max 2)
->    * iron_ore, gold_ore, iron_ore
+>    * raw_iron, raw_gold, raw_iron
 >    * lapis_block, stick, lapis_block
 >    * air, stick, air
 
