@@ -3,8 +3,8 @@ advancement revoke @s only br:recipes/philo_pickaxe
 execute unless score @s ct.philo_pickaxe > philo_pickaxe ct.Max run scoreboard players add @s ct.philo_pickaxe 1
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run scoreboard players set @s ct.testing2 1
-execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:iron_ore 2
-execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:gold_ore 1
+execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:raw_iron 2
+execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:raw_gold 1
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:stick 2
 execute if score @s ct.philo_pickaxe > philo_pickaxe ct.Max run give @s minecraft:lapis_block 2
 

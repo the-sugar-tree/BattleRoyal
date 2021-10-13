@@ -3,7 +3,7 @@ advancement revoke @s only br:recipes/quick_pick
 execute unless score @s ct.quick_pick > quick_pick ct.Max run scoreboard players add @s ct.quick_pick 1
 execute if score @s ct.quick_pick > quick_pick ct.Max unless score @s ct.testing2 matches 1 run tellraw @s {"translate":"br.recipe.failed"}
 execute if score @s ct.quick_pick > quick_pick ct.Max run scoreboard players set @s ct.testing2 1
-execute if score @s ct.quick_pick > quick_pick ct.Max run give @s minecraft:iron_ore 3
+execute if score @s ct.quick_pick > quick_pick ct.Max run give @s minecraft:raw_iron 3
 execute if score @s ct.quick_pick > quick_pick ct.Max run give @s minecraft:stick 2
 execute if score @s ct.quick_pick > quick_pick ct.Max run give @s minecraft:coal 2
 

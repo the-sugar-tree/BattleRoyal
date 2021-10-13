@@ -7,10 +7,10 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:iron_ore"
+            "item": "minecraft:raw_iron"
         },
         "G": {
-            "item": "minecraft:gold_ore"
+            "item": "minecraft:raw_gold"
         },
         "L": {
             "item": "minecraft:lapis_block"
