@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "The first"
+        },
+        "description": {
+            "text": "GAME START!"
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "br:advancements/root"
+}
