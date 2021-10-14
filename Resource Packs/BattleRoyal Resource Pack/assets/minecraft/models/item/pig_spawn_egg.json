@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+	{ "predicate": {"custom_model_data": 1}, "model": "item/pig_spawn_egg/p1" }
+  ]
+}

@@ -108,6 +108,12 @@
 
 >    * CustomModelData: 2
 
+* Forge (Instant Smelting (10), Max 3)
+>    * cobblestone, cobblestone, cobblestone
+>    * cobblestone, coal_block, cobblestone
+>    * cobblestone, cobblestone, cobblestone
+
+>    * CustomModelData: 1
 ## License / 라이센스
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/the-sugar-tree/BattleRoyal/blob/master/LICENSE) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE 파일을 참고하세요.

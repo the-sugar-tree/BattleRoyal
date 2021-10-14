@@ -73,6 +73,7 @@ scoreboard players set bottle_o ct.Max 3
 scoreboard players set sugar_rush ct.Max 3
 scoreboard players set dragon_sword ct.Max 1
 scoreboard players set sugar_sword ct.Max 1
+scoreboard players set forge ct.Max 3
 
 scoreboard objectives add ct.tr_helmet dummy
 scoreboard objectives add ct.tr_sword dummy
@@ -90,6 +91,7 @@ scoreboard objectives add ct.bottle_o dummy
 scoreboard objectives add ct.sugar_rush dummy
 scoreboard objectives add ct.dragon_sword dummy
 scoreboard objectives add ct.sugar_sword dummy
+scoreboard objectives add ct.forge dummy
 
 scoreboard players reset @a
 

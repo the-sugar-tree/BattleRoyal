@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "br:forge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "br:recipe_items/forge"
+    },
+    "parent": "br:recipes/root"
+}
