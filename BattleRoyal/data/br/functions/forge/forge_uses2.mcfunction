@@ -111,7 +111,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:acacia_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:acacia_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -127,7 +127,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:birch_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:birch_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -143,7 +143,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:jungle_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:jungle_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -159,7 +159,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:spruce_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:spruce_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -207,7 +207,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:acacia_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:acacia_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -223,7 +223,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:birch_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:birch_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -239,7 +239,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:jungle_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:jungle_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -255,7 +255,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:spruce_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:spruce_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -303,7 +303,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_acacia_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_acacia_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -319,7 +319,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_birch_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_birch_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -335,7 +335,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_jungle_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_jungle_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -351,7 +351,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_spruce_oak_log"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_spruce_log"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -399,7 +399,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_acacia_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_acacia_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -415,7 +415,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_birch_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_birch_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -431,7 +431,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_jungle_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_jungle_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -447,7 +447,7 @@ execute if score @s forge.item < @s forge unless score @s forge.item matches 0 i
 data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
-execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_spruce_oak_wood"
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:stripped_spruce_wood"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with charcoal 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
@@ -881,6 +881,22 @@ data remove storage br:temp temp
 
 execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
 execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:sand"
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with glass 10
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[0].Count byte 1 run scoreboard players operation @s forge.temp -= @s forge
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players set @s forge 0
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run setblock ~ ~ ~ air destroy
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run playsound entity.blaze.shoot block @a ~ ~ ~ 2.0 1
+execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run particle minecraft:lava ~ ~ ~ 0.01 0.1 0.01 0.05 7 normal @a
+execute if score @s forge.item < @s forge unless score @s forge.item matches 0 if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 from block ~ ~ ~ container.0
+execute if score @s forge.item < @s forge unless score @s forge.item matches 0 if score @s forge.match matches 0 run item replace block ~ ~ ~ container.0 with air
+execute if score @s forge.item < @s forge unless score @s forge.item matches 0 if score @s forge.match matches 0 run data modify block ~ ~ ~ Items[0].id set value "minecraft:glass"
+execute if score @s forge.item < @s forge unless score @s forge.item matches 0 if score @s forge.match matches 0 run scoreboard players operation @s forge -= @s forge.item
+data remove storage br:temp temp
+
+execute run data modify storage br:temp temp set from block ~ ~ ~ Items[0]
+execute store result score @s forge.match run data modify storage br:temp temp.id set value "minecraft:red_sand"
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run item replace block ~ ~ ~ container.2 with glass 10
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 store result block ~ ~ ~ Items[1].Count byte 1 run scoreboard players get @s forge
 execute if score @s forge.item >= @s forge if score @s forge.match matches 0 run scoreboard players operation @s forge.temp = @s forge.item
