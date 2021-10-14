@@ -12,7 +12,7 @@ execute as @e[type=armor_stand,tag=forge-u] if score @s forge.slot matches 0 at 
 execute as @e[type=armor_stand,tag=forge-u] if score @s forge.slot matches 0 at @s positioned ~ ~-0.5 ~ if data block ~ ~ ~ Items[1] as @p run tag @e[type=item,tag=forge,limit=1,sort=nearest] remove forge
 execute as @e[type=armor_stand,tag=forge-u] if score @s forge.slot matches 0 at @s positioned ~ ~-0.5 ~ if data block ~ ~ ~ Items[1] as @p run item replace block ~ ~ ~ container.2 with air
 
-execute as @e[type=armor_stand,tag=forge-u] if score @s forge.slot matches 0 at @s positioned ~ ~-0.5 ~ run function br:forge/forge_uses2
+execute as @e[type=armor_stand,tag=forge-u] if score @s forge.slot matches 0 at @s positioned ~ ~-0.5 ~ if data block ~ ~ ~ Items[0] run function br:forge/forge_uses2
 
 execute as @e[type=armor_stand,tag=forge-u] if score @s forge matches 10 run data merge entity @s {CustomName:'[{"text":"Forge (10)","color":"green"}]'}
 execute as @e[type=armor_stand,tag=forge-u] if score @s forge matches 9 run data merge entity @s {CustomName:'[{"text":"Forge (9)","color":"green"}]'}
