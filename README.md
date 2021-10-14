@@ -108,7 +108,7 @@
 
 >    * CustomModelData: 2
 
-* Forge (Instant Smelting (10), Max 3)
+* Forge (1x pig_spawn_egg, Instant Smelting (10), Max 3)
 >    * cobblestone, cobblestone, cobblestone
 >    * cobblestone, coal_block, cobblestone
 >    * cobblestone, cobblestone, cobblestone
