@@ -2,15 +2,15 @@
     "display": {
         "title": {
             "text": "There are the enemies",
-            "color": "red"
+            "color": "dark_red"
         },
         "description": {
-            "text": "warm up time OVER!"
+            "text": "Watch Out!"
         },
         "icon": {
             "item": "minecraft:iron_sword"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
