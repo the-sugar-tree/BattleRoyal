@@ -14,4 +14,8 @@ function br:spawn_blaze/spawn_blaze_h
 
 function br:attribute_items/load
 
+function br:forge/forge_spawn
+function br:forge/forge_uses
+function br:forge/forge_remove
+
 scoreboard players reset @a[scores={ct.testing2=1}] ct.testing2
