@@ -9,5 +9,5 @@ execute if score @s ct.bottle_o > bottle_o ct.Max if score @s ct.testing matches
 execute if score @s ct.bottle_o > bottle_o ct.Max run give @s minecraft:redstone_block 1
 execute if score @s ct.bottle_o > bottle_o ct.Max run give @s minecraft:glass_bottle 3
 
-execute unless score @s ct.bottle_o > bottle_o ct.Max run tellraw @s [{"translate":"br.recipe.crafted","with":[{"translate":"br.item.bottle_o"}]},{"text":"(","color":"yellow"},{"score":{"name":"@s","objective": "ct.bottle_o"},"color":"green"},{"text":"/","color":"yellow"},{"score":{"name": "bottle_o","objective": "ct.Max"},"color":"green"},{"text":")","color":"yellow"}]
+execute unless score @s ct.bottle_o > bottle_o ct.Max run tellraw @s [{"translate":"br.recipe.crafted","with":[{"translate":"br.item.bottle_o"}]},{"text":" (","color":"yellow"},{"score":{"name":"@s","objective": "ct.bottle_o"},"color":"green"},{"text":"/","color":"yellow"},{"score":{"name": "bottle_o","objective": "ct.Max"},"color":"green"},{"text":")","color":"yellow"}]
 execute unless score @s ct.bottle_o > bottle_o ct.Max at @s run playsound entity.arrow.hit_player master @s ~ ~ ~

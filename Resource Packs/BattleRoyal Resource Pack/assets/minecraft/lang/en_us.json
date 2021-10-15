@@ -21,7 +21,8 @@
 	"br.item.tr_sword": "§aTrained Sword",
 	"br.item.forge" : "§aForge",
 	"br.recipe.crafted": "§eYou have crafted the §a%s§e!",
-	"br.recipe.failed": "§cYou have already crafted the maximum amount available for this recipe",
+	"br.recipe.failed": "§cYou have already crafted the maximum amount available for this recipe.",
+	"br.recipe.failed_bucket" : "§cYou have already crafted the maximum amount available for this recipe. You cannot recive lava and water sorry.",
 
 	"br.bluezone.info": "§eLeft Players: §9[§6%s§9] §eBluezone distance: §9[§6%s §ablocks§9]",
 
