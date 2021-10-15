@@ -6,10 +6,10 @@
         " # "
     ],
     "key": {
-        "#": {
+        "G": {
             "item": "minecraft:redstone_block"
         },
-        "G": {
+        "#": {
             "item": "minecraft:glass_bottle"
         }
     },

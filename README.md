@@ -94,6 +94,11 @@
 >    * air, oak_sapling, air
 >    * wheat_seeds, sugar, wheat_seeds
 
+* Bottle o' Enchanting (10x experience_bottle, Max 3)
+>    * air, glass_bottle, air
+>    * glass_bottle, redstone_block, glass_bottle
+>    * air, glass_bottle, air
+
 * Dragon Sword (1x diamond_sword{Damage +1}, Max 1)
 >    * air, blaze_powder, air
 >    * air, diamond_sword, air

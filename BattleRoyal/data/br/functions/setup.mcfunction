@@ -45,7 +45,6 @@ worldborder set 1000 0
 worldborder damage buffer 0
 worldborder warning time 120
 worldborder warning distance 30
-tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"click!","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart set 1"}}]
 
 scoreboard objectives add ct.testing dummy
 scoreboard objectives add ct.testing2 dummy
@@ -97,3 +96,5 @@ scoreboard players reset @a
 
 execute as @a store result score @s Health run data get entity @s Health
 scoreboard players enable @a GameStart
+
+tellraw @a [{"text":"[Battle Royal] ","color":"green"},{"text":"Click to Start!","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"click!","color":"red"}]},"clickEvent":{"action":"run_command","value":"/trigger GameStart"}}]
