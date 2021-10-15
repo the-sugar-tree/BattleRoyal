@@ -15,6 +15,7 @@ tag @a remove trained_sword
 advancement revoke @a everything
 recipe take @a *
 gamemode survival @a
+execute as @a run attribute @s minecraft:generic.max_health base set 40
 worldborder set 1000 0
 execute as @a at @s run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~
 
