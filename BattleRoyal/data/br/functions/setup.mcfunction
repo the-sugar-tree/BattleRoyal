@@ -29,6 +29,11 @@ effect clear @a
 
 advancement revoke @a everything
 recipe take @a *
+scoreboard players set NoFight BattleRoyal 0
+scoreboard players set Fight BattleRoyal 0
+scoreboard players set BlueZone BattleRoyal 0
+scoreboard players set GameEnd BattleRoyal 0
+scoreboard players set Emergency BattleRoyal 0
 
 scoreboard players set -1 BattleRoyal -1
 scoreboard players set 1 BattleRoyal 1
