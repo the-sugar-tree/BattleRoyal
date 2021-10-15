@@ -1,5 +1,5 @@
 execute in minecraft:overworld run spreadplayers 0 0 200 200 false @a
-spawnpoint @a 0 100 0
+execute in minecraft:overworld run spawnpoint @a 0 100 0
 time set day
 tellraw @a ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄","bold":true,"color":"green"},{"text":"\n[Battle Royal]","bold":true,"color":"aqua"},{"text":"\n처음 20분은 파밍시간입니다!\n그 뒤로는 점점 자기장이 줄어듭니다!\n5분마다 줄어드는 자기장을 피해 0, 0으로 이동하고 싸워 승리하세요!\n\n자기장이 줄어들때 자기장이 당신의 위치에 도달할 수 있다면 경고를 받습니다\n또한 자기장과 30블럭 거리여도 경고를 받습니다\n","color":"yellow"},{"text":"𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄𑩄","bold":true,"color":"green"}]
 effect give @a minecraft:fire_resistance 1200 1 true
